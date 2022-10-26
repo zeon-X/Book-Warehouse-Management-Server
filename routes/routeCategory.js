@@ -4,7 +4,7 @@ const {
   deleteCategory,
   getCategory,
   getCategoryById,
-} = require("../controller/CategoryController");
+} = require("../controller/categoryController");
 const { verifyTokenAndAdmin } = require("../middlewares/verifyTokens");
 
 const router = require("express").Router();
